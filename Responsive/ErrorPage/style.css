@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --main-color:black;
+    --second-color:grey;
+}
+
+.navbar{
+    padding: 1rem;
+    margin:1rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+section{
+    padding: 1rem 3rem;
+    margin: 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+}
+
+span{
+    font-weight: bolder;
+    font-size: xx-large;
+    word-spacing: 0.5rem;
+    letter-spacing: 0.3rem;
+}
+
+.image{
+    margin-right: 1rem;
+    max-width: 45%;
+}
+
+.info{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+p{
+    padding: 1rem 0rem;
+    margin: 1rem 0rem;
+    text-align:start;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+    font-size: large; 
+    color: var(--second-color); 
+}
+
+.btn{
+    background-color: var(--main-color);
+    color: white;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 0.5rem;
+    /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 620px) {
+    section{
+        flex-direction: column;
+        padding: 1rem 1rem;
+    }
+
+    span{
+        word-spacing: 0rem;
+        letter-spacing: 0rem;
+    }
+
+    .image{
+        max-width: 80%;
+    }
+
+    p{
+        letter-spacing: 0rem;
+        word-spacing: 0rem;
+    }
+
+    .btn{
+        padding: 1rem;
+        margin: 0.5rem;
+    }
+    
+}
