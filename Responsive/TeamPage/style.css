@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --main-color:black;
+    --second-color:rgb(97, 89, 89);
+}
+
+body{
+    max-width: 80%;
+    margin: auto;
+    background-color: aliceblue;
+}
+
+
+.navbar{
+    padding: 2rem;
+    margin:1rem;
+   display: flex;;
+   justify-content:flex-start;
+}
+
+
+.left{
+    font-weight: bolder;
+    font-size: x-large;
+    flex: 1 1 100%;
+}
+
+.right{
+    flex: 1 1 100%;
+    text-align: left;
+}
+
+.navbar .right span{
+    font-weight: bold;
+}
+
+.navbar .right p {
+  margin-top: 0.5rem;
+  word-spacing: 0.3rem;
+}
+
+/* GRID DISPLAY */
+
+.images{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 5rem 0rem;
+    grid-gap:1rem;
+}
+
+.image{
+    width: 75%;
+    padding-bottom: 0.5rem;
+    padding-left: 0rem;
+}
+
+section div{
+    font-weight: bold;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+}
+
+.d2,.d5{
+    padding-top: 6rem;
+}
+
+.rotate{
+    padding: 1rem 0rem 0rem 0rem;
+    font-size: small;
+   align-self:baseline;
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    margin-bottom: 0.5rem;
+    /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--second-color);
+    font-weight:bold ;
+}
