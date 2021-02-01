@@ -106,7 +106,9 @@ section div{
 .left{
     padding-bottom: 2rem;
 }
-
+    body{
+      max-width: 90%;
+    }
     .images{
         grid-template-columns: repeat(2,1fr);
         margin: 5rem 0rem;
