@@ -84,8 +84,44 @@ section div{
     transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     font-weight: normal;
+    letter-spacing: 0.1rem;
 }
 
+
+@media screen and (max-width:767px)
+{
+    
+.navbar{
+    padding: 2rem;
+    margin:1rem;
+   display: block;;
+   justify-content:flex-start;
+}
+
+.left{
+    padding-bottom: 2rem;
+}
+
+    .images{
+        grid-template-columns: repeat(2,1fr);
+        margin: 5rem 0rem;
+        grid-gap:0.3rem;
+    }   
+
+    .image{
+        width: 75%;
+    }
+
+    .d2,.d4,.d6{
+        padding-top: 6rem;
+    }
+    .d5{
+        padding-top: 0rem;
+    }
+    .d3{
+        /* margin-left: -1rem; */
+    }
+}
 
 
 
