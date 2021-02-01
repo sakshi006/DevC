@@ -108,7 +108,7 @@ section div{
 }
     body{
       max-width: 90%;
-      padding-left: 1.5rem;
+      /* padding-left: 1.5rem; */
       margin-right: -0.3rem;
     }
     .images{
