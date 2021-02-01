@@ -63,6 +63,11 @@ body{
     padding-left: 0rem;
 }
 
+.image:hover{
+    width: 76.5%;
+    transition: all 0.5s;
+}
+
 section div{
     font-weight: bold;
 }
